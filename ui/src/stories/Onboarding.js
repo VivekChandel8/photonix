@@ -3,12 +3,12 @@ import { StateMachineProvider, createStore } from 'little-state-machine'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import '../static/css/Onboarding.css'
-import Step1AdminUser from './onboarding/Step1AdminUser'
-import Step2AdminCreated from './onboarding/Step2AdminCreated'
-import Step3CreateLibrary from './onboarding/Step3CreateLibrary'
-import Step4PhotoImporting from './onboarding/Step4PhotoImporting'
-import Step5Search from './onboarding/Step5Search'
-import Result from './onboarding/Result'
+import Step1AdminUser from '../components/onboarding/Step1AdminUser'
+import Step2AdminCreated from '../components/onboarding/Step2AdminCreated'
+import Step3CreateLibrary from '../components/onboarding/Step3CreateLibrary'
+import Step4PhotoImporting from '../components/onboarding/Step4PhotoImporting'
+import Step5Search from '../components/onboarding/Step5Search'
+import Result from '../components/onboarding/Result'
 
 createStore({
   data: {},

@@ -2,7 +2,7 @@ import React from 'react'
 import { useStateMachine } from 'little-state-machine'
 import { Flex, Button } from '@chakra-ui/core'
 
-import updateAction from './onboarding/updateAction'
+import updateAction from '../components/onboarding/updateAction'
 
 const ModalForm = ({
   children,

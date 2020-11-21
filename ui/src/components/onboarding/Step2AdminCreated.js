@@ -1,7 +1,7 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 
-import ModalForm from '../ModalForm'
+import ModalForm from '../../stories/ModalForm'
 
 const Step2AdminCreated = ({ hasPrevious, history }) => {
   const { register, handleSubmit, errors, formState } = useForm()

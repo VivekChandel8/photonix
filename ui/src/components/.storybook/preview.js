@@ -1,3 +1,8 @@
 export const parameters = {
-    actions: {argsTypesRegex: "^on[A-Z].*" },
-}
+    options: {
+      storySort: {
+        order: ['Intro', 'Pages', ['Home', 'Login', 'Admin'], 'Components'],
+      },
+    },
+  };
+  

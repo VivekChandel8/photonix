@@ -4,7 +4,7 @@ import { useStateMachine } from 'little-state-machine'
 import { Stack } from '@chakra-ui/core'
 
 import updateAction from './updateAction'
-import ModalForm from '../ModalForm'
+import ModalForm from '../../stories/ModalForm'
 import ModalField from '../ModalField'
 
 const Step4PhotoImporting = ({ history }) => {
